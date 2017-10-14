@@ -1,0 +1,89 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* App Styles */
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.feature-box {
+  padding: 8rem 0;
+  margin: 0rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2.7rem;
+  color: #fff;
+}
+
+h2 {
+  margin: 0rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+#title-bar {
+  padding: 0.1rem 0;
+  margin: 0rem;
+  text-align: center;
+  background-color: #3A528E;
+}
+
+#pitch {
+  /*Put in opaque background of version merge w/ cash dropping to account*/
+  background-color: #fff;
+}
+
+#pitch-text {
+  color: #000000;
+}
+
+#voting {
+  /*TAKE MY MONEY!*/
+  background-color: #2B7B7F;
+}
+
+#rewards {
+  /*TAKE MY MONEY!*/
+  background-color: #fff;
+}
+
+#rewards-text {
+  color: #000000;
+}
+
+#payment {
+  background-color: #122860;
+}
